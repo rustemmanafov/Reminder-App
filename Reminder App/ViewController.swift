@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBAction func addButton(_ sender: Any) {
         
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "AddViewController") as? AddViewController else {return}
+        
         vc.title = "New Reminder"
         vc.completion = {(title, body, date) in
             
