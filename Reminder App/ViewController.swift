@@ -46,9 +46,7 @@ class ViewController: UIViewController {
                         print("Wrong")
                     }
                 })
-                
             }
-            
         }
         
         navigationController?.pushViewController(vc, animated: true)
