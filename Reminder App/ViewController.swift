@@ -142,6 +142,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         })
     }
 }
+
 struct Reminder {
     var title: String
     var body: String
